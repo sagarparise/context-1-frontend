@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        tr,th,td{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- --------Header------ -->
+    <header>
+        <h1>My Dream City </h1>
+        <p>Mumbai !</p>
+    </header>
+    
+    <!-- ----------navigation---------- -->
+    <nav><a href="#">Description |</a>
+        <a href="#">Attractions |</a>
+        <a href="#">Statistics |</a>
+        <a href="#">Feedback |</a>
+        <a href="#">Quotes |</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!-- -----------Description-section-------- -->
+    <section>
+        <h2>Mumbai's Ocean</h2>
+        <img src="images/mumbai1.jpg" alt="sea_image"
+        style="
+                width: 100%; 
+                height: 500px;
+                ">
+        <p> Mumbai,the city which is surrounded on three sides by water, the open Arabian Sea to the West and South and Thane creek to the East.Mumbai, often referred as “the city of dreams” for all the right reasons, is a place that every traveller must visit. Mumbai presents a unique experience that is unmatched to any other destination. Capital city of Maharashtra state, Mumbai is the city of aspirations, power, wealth, glamour and nightlife along with stretches of shimmering beaches, caves, magnificent architecture, religious sites and a mouth-watering cuisine. With all this exciting and varied recreational opportunities Mumbai tourism offers a wholesome holiday experience.</p>
+    </section>
+<hr>
+    <!-- ------------Attractions---------- -->
+ <section>
+    <h2>Attractions</h2>
+    <h3>Main Attractions</Main></h3>
+    <ol>
+        <li>Gate of India</li>
+        <li> Marine Drive</li>
+        <li>Worli Seaface</li>
+        <li>Chhatrapati Shivaji Terminus</li>
+    </ol>
+    <h3>Local Attractions</h3>
+    <ul>
+        <li>Nariman Point</li>
+        <li>Colaba Causeway Market</li>
+        <li>Caves & Beaches</li>
+        <ul>
+            <li>Elephanta Caves</li>
+            <li>Kanheri Caves</li>
+            <li>Mahakali Caves</li>
+            <li>Gorai Beach</li>
+            <li>Juhu Beach</li>
+        </ul>
+    </ul>
+</section>
+<hr>
+<!-- -----------City Statistics----------- -->
+<section>
+<h2>City Statistics</h2>
+
+<table >
+    <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Population</td>
+        <td>27 Million</td>
+    </tr>
+    <tr>
+        <td>Landmarks</td>
+         <td>51</td>
+    </tr>
+    <tr>
+        <td>Parks</td>
+      <td>11</td>
+    </tr>
+    <tr>
+        <td>Schools</td>
+    <td>658</td>
+ </tr>
+    <tr>
+        <td>Beaches</td>
+        <td>12</td>
+    </tr>
+</table>
+</section>
+<hr>
+<!-- ---------------Feedback----------- -->
+
+<section>
+<h2>Feedback</h2>
+<form >
+    <label for="name">Name:</label>
+    <input type="text" name="Name" id="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="Email" id="email" required>
+    <br>
+    <label for="age">Age:</label>
+    <input type="number" name="Age" id="age">
+    <br>
+    <label for="Favorite-attraction">Favorite Attraction:</label>
+    <select name="Favorite-attraction" id="Favorite-attraction">
+        <optgroup label="Main Attractions"></optgroup>
+        <option value="Gate of India">Gate of India</option>
+        <option value="Marine Drive">Marine Drive</option>
+        <option value="Worli Seaface">Worli Seaface</option>
+        <option value="Chhatrapati Shivaji Terminus">Chhatrapati Shivaji Terminus</option>
+
+        <optgroup label="Local Attractions"></optgroup>
+        <option value="Nariman Point">Nariman Point</option>
+        <option value="Colaba Causeway Market">Colaba Causeway Market</option>
+        <option value="Elephanta Caves">Elephanta Caves</option>
+        <option value="Kanheri Caves">Kanheri Caves</option>
+        <option value="Mahakali Caves">Mahakali Caves</option>
+        <option value="Gorai Beach">Gorai Beach</option>
+        <option value="Juhu Beach">Juhu Beach</option>
+    </select>
+    <br>
+    <label for="textarea">Comments:</label>
+   <textarea name="Comments" id="textarea" ></textarea>
+   <br>
+   <label>Newsletter: </label>
+   <input type="checkbox">Subscribe to our newsletter
+   <br>
+   <input type="submit" value="Submit">
+</form>
+</section>
+<hr>
+
+<!-- ------------Quotes---------- -->
+<section>
+    <h2>What Citizens Say</h2>
+    <p><span>"Mumbai is like Manhattan.There's certain pace,social life and the thrill of professional life."</span> - Madhuri Dixit</p>
+    <p><span>"Most dreams are realised and extinguished in Mumbai than any other place in India."</span> - Gregory David Roberts</p>
+</section>
+<hr>
+<!-- -----------Contact------------ -->
+<section>
+    <h2>Contact Us</h2>
+    <address>
+        <p><i>Mumbai Tourism Office</i></p>
+        <p><i>Nariman Point,Mumbai</i></p>
+        <p><i><a href="mailto:info@mumbai.com" style="text-decoration: none;">Email:info@mumbai.com</a></i></p>
+        <p><i>phone:123-456-7890</i></p>
+    </address>
+</section>
+<hr>
+<!-- ------------footer--------- -->
+<footer>
+    <p>&copy; 2023 Mumbai Tourism. Dream of City!</p>
+       
+</footer>
+</body>
+</html>
